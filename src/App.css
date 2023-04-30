@@ -6,8 +6,8 @@
 }
 .game-board
 {
-	width: 400px;
-	height: 400px;
+	width: 350px;
+	height: 350px;
 	margin: 0 auto;
  
   background-image: linear-gradient(to left top, #000000, #453330, #846753, #b8a878, #d8f2ae);
@@ -66,8 +66,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  height: 100vh;
-
+  min-height: 100vh;
+  background-position: center center;
 }
 
 h1{
@@ -83,7 +83,7 @@ h2{
   padding: 20px;
   margin-right: 10px;
   text-align: center;
-  font-size: 60px;
+  font-size: 45px;
   color: white;
   text-shadow: 0 0 6px rgba(202,228,225,0.92),
   0 0 30px rgba(202,228,225,0.34),
@@ -101,7 +101,7 @@ h2{
   padding: 1.5rem 2rem;
   border-radius: 0.2rem;
   background-color: black;
-  width: 500px;
+  width: 350px;
   display: block;
   border-radius: 20px;
   transition: all 0.3s;
